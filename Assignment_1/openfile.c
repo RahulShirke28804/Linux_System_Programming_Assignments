@@ -1,3 +1,11 @@
+/*
+1) Open File
+• Accept file name from user and open it using open().
+• Print: success message + returned file descriptor.
+• Handle errors using perror().
+
+*/
+
 #include<stdio.h>
 #include<unistd.h>
 #include<fcntl.h>
